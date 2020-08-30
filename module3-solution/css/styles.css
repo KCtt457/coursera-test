@@ -1,0 +1,63 @@
+body {
+  font-size: 16px;
+  color: #17202A;
+  font-family: cursive;
+}
+
+/**HEADER**/
+.container-fluid {
+	background-color: #C39BD3;
+}
+
+#company-name {
+	font-size: 1.8em;
+	color: #34495E;
+	font-weight: bold;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #4A235A;
+}
+
+#nav-list {
+	margin: 0px -15px 0px;
+	background-color: #48C9B0;
+	border: 1px solid black;
+}
+
+#collapsable-nav li {
+	color: #4D5656;
+	border-bottom: 1px solid black;
+}
+
+#collapsable-nav li:nth-child(3) {
+	border-bottom: none;
+}
+/* END HEADER */
+
+/**HOME PAGE**/
+#main-content {
+	margin-bottom: 15px;
+}
+
+#menu-title {
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+#chicken-description {
+	background-color: #D4E6F1;
+	overflow: hidden;
+}
+/* END HOME PAGE*/
+
+@media (max-width: 767px) {
+	#main-content {
+		margin: 0px 35px 15px;
+	}
+}
